@@ -61,5 +61,6 @@ size_t binarytree_height(const binary_tree_t *tree);
 int binarytree_balance(const binary_tree_t *tree);
 avl_t *avl_insert(avl_t **tree, int value);
 avl_t *array_to_avl(int *array, size_t size);
+avl_t *avl_remove(avl_t *root, int value);
 
 #endif
