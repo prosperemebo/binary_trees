@@ -55,7 +55,7 @@ size_t binarytree_height(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_balance - check if a binary tree is balanced or not
+ * binarytree_balance - check if a binary tree is balanced or not
  * Description: check if all nodes have a left/right nodes
  *
  * @tree: the binary tree
